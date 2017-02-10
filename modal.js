@@ -19,7 +19,7 @@ window = (typeof window != 'undefined' && window.Math == Math)
     : Function('return this')()
 ;
 
-$.fn.modal = function(parameters) {
+$.fn.semanticUiModal = function(parameters) {
   var
     $allModules    = $(this),
     $window        = $(window),
@@ -48,8 +48,8 @@ $.fn.modal = function(parameters) {
     .each(function() {
       var
         settings    = ( $.isPlainObject(parameters) )
-          ? $.extend(true, {}, $.fn.modal.settings, parameters)
-          : $.extend({}, $.fn.modal.settings),
+          ? $.extend(true, {}, $.fn.semanticUiModal.settings, parameters)
+          : $.extend({}, $.fn.semanticUiModal.settings),
 
         selector        = settings.selector,
         className       = settings.className,
@@ -833,7 +833,7 @@ $.fn.modal = function(parameters) {
   ;
 };
 
-$.fn.modal.settings = {
+$.fn.semanticUiModal.settings = {
 
   name           : 'Modal',
   namespace      : 'modal',
@@ -893,7 +893,7 @@ $.fn.modal.settings = {
     close    : '> .close',
     approve  : '.actions .positive, .actions .approve, .actions .ok',
     deny     : '.actions .negative, .actions .deny, .actions .cancel',
-    modal    : '.ui.modal'
+    modal    : '.ui.semantic-ui-modal'
   },
   error : {
     dimmer    : 'UI Dimmer, a required component is not included in this page',

@@ -1,6 +1,6 @@
 {
-  "name": "semantic/modal",
-  "description": "Single component release of modal",
+  "name": "ensphere/semantic-ui-modal-no-conflict",
+  "description": "Semantic UIs Modal component folk with no conflict in mind",
   "homepage": "http://www.semantic-ui.com",
   "authors": [{
     "name": "Jack Lukic",

@@ -1,6 +1,6 @@
 {
-  "name": "semantic-ui-modal",
-  "description": "Modal - Semantic UI",
+  "name": "semantic-ui-modal-no-conflict",
+  "description": "Semantic UIs Modal component folk with no conflict in mind",
   "homepage": "http://www.semantic-ui.com",
   "author": {
     "name": "Jack Lukic",
