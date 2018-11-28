@@ -409,6 +409,7 @@
                                 module.error(error.noTransition);
                             }
                         }
+                        element.remove();
                     },
 
                     showDimmer: function() {
